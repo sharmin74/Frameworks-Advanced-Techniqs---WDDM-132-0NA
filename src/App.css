@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* App.css */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 20px;
+}
+
+.App {
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+.skills-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container h2 {
+  font-size: 22px;
+  color: #444;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #007bff;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.skills-list li:hover {
+  background: #0056b3;
+}
+
+
+
+.profile-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #000000;
+  margin-bottom: 10px;
+}
+
+.profile-container h1 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.profile-container p {
+  font-size: 20px;
+  color: #666;
+}
